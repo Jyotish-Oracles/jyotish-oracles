@@ -59,12 +59,13 @@ const credentials = [
 ];
 
 const specializations = [
-  "Natal Chart Analysis (D1–D60)",
+  "Natal Chart Analysis (D1\u2013D60)",
   "Garbhadhana Muhurtha",
-  "Electional Astrology (Muhurtha)",
-  "Dasha & Antardasha Timing",
+  "Child Horoscopy & Samskara Timing",
+  "Lakshmi Kataksha (Wealth Analysis)",
+  "Name & Logo Astrology",
+  "Watch Astrology",
   "PanchaPakshi Shastra",
-  "Divisional Charts & Vargas",
   "Nakshatra & Pada Analysis",
   "Ashtakavarga Strength Mapping",
 ];
@@ -266,19 +267,19 @@ export default function AboutPage() {
               <p className="mb-1 text-[10px] font-semibold uppercase tracking-[0.15em] text-green-light opacity-60">
                 Consultations
               </p>
-              <h3 className="mb-3 font-serif text-lg font-semibold leading-snug">
+              <h3 className="mb-3 font-serif text-lg font-semibold leading-snug !text-text-on-dark">
                 Work with Sandeep
               </h3>
               <p className="mb-5 text-sm leading-relaxed text-text-on-dark/60">
-                Natal readings, Garbhadhana Muhurtha, annual forecasts, and
-                electional consultations — conducted with the precision this
-                science demands.
+                Garbhadhana Muhurtha, Child Horoscopy, Lakshmi Kataksha,
+                natal readings, and specialised consultations — conducted with
+                the precision this science demands.
               </p>
               <a
-                href="/contact"
-                className="inline-block rounded-lg bg-green px-4 py-2.5 text-sm font-semibold text-white no-underline transition-opacity hover:opacity-90"
+                href="/services"
+                className="inline-block rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-text-on-dark no-underline transition-opacity hover:opacity-90"
               >
-                Book a consultation
+                View services
               </a>
             </div>
 

@@ -27,7 +27,7 @@ export default function Hero({ panchang, cityName }: Props) {
               Understand your chart. Align with the cosmos.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Button variant="primary" href="/contact">
+              <Button variant="primary" href="/services">
                 Book a Reading
               </Button>
               <Button variant="secondary" href="/tools">

@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Vedic astrology consultations — natal readings, Garbhadhana Muhurtha, Child Horoscopy, Lakshmi Kataksha, annual forecasts, electional astrology, and compatibility analysis.",
+    "Vedic astrology consultations — Garbhadhana Muhurtha, Child Horoscopy, Lakshmi Kataksha, natal readings, name & logo selection, and watch astrology.",
 };
 
 const signatureServices = [

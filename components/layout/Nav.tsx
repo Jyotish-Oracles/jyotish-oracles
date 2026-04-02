@@ -11,7 +11,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/tools", label: "Tools" },
   { href: "/services", label: "Services" },
-  { href: "/insights", label: "Insights" },
+  { href: "/insights", label: "Media" },
   { href: "/about", label: "About" },
 ];
 
@@ -51,7 +51,7 @@ export default function Nav() {
               </Link>
             ))}
             <LocationPicker />
-            <Button variant="primary" href="/contact">
+            <Button variant="primary" href="/services">
               Book a Reading
             </Button>
           </div>
@@ -100,7 +100,7 @@ export default function Nav() {
               </Link>
             ))}
             <div className="mt-4">
-              <Button variant="primary" href="/contact">
+              <Button variant="primary" href="/services">
                 Book a Reading
               </Button>
             </div>

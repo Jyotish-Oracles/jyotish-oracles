@@ -191,7 +191,7 @@ export default function GarbhadhanaPage() {
                   <p className="mb-1 text-[10px] font-semibold uppercase tracking-[0.15em] text-accent opacity-80">
                     Signature Service
                   </p>
-                  <h3 className="mb-4 font-serif text-2xl font-semibold leading-snug">
+                  <h3 className="mb-4 font-serif text-2xl font-semibold leading-snug !text-text-on-dark">
                     Garbhadhana Muhurtha
                   </h3>
                   <ul className="mb-6 space-y-3 text-sm text-text-on-dark/70">

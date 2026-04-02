@@ -9,16 +9,15 @@ const footerLinks = {
     { label: "PanchaPakshi", href: "/tools/pakshi" },
   ],
   Services: [
-    { label: "Birth Chart Reading", href: "/services#birth-chart" },
-    { label: "Annual Forecast", href: "/services#annual" },
-    { label: "Muhurta Selection", href: "/services#muhurta" },
-    { label: "Compatibility", href: "/services#compatibility" },
+    { label: "Garbhadhana Muhurtha", href: "/services/garbhadhana" },
+    { label: "Child Horoscopy", href: "/services/child-horoscopy" },
+    { label: "Lakshmi Kataksha", href: "/services/lakshmi-kataksha" },
+    { label: "All Services", href: "/services" },
   ],
   Company: [
     { label: "About", href: "/about" },
-    { label: "Insights", href: "/insights" },
+    { label: "Media", href: "/insights" },
     { label: "Contact", href: "/contact" },
-    { label: "Privacy Policy", href: "/privacy" },
   ],
 };
 
